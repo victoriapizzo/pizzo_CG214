@@ -1,0 +1,612 @@
+*, *:before, *:after {
+		  box-sizing: border-box;
+		}
+
+
+#Header {
+    
+    min-width: 900px;
+    max-height: 300px;
+    min-height: 80px;
+    background-color: black;
+    padding: 10px;
+    margin-top: 0;
+    
+}
+
+.logo {
+    
+    float: left;
+    line-height: 50%;
+    text-align: center;
+    max-width: 400px;
+    padding-left: 30px;
+    min-height: 40px;
+}
+
+.logo a{
+    
+    text-decoration: none;
+}
+
+.navigation {
+    
+    float: right;
+    word-spacing: 50px;
+    padding-right: 90px;
+    padding-top: 40px;
+    
+}
+
+.navigation a {
+    
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+}
+
+.navigation a:hover {
+    
+    color: #f9f9cf;
+}
+#Header p{
+    
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: #f9f9cf;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    
+    font-size: 30px;
+    color: aliceblue;
+    font-family: 'Comfortaa', cursive;
+    
+}
+
+
+body {
+   
+    background-color: white;
+  
+}
+
+.part1 {
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    min-height: 500px;
+    background-image: url(/media/image/fixture1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.part1 a {
+    
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #fdffd6;
+    border: none;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    width: 170px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 15px;
+    
+}
+
+.part1 a:visited {
+    
+    color:black;
+}
+
+.part1 a:hover {
+    
+    box-shadow: 1px 5px 10px black;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+
+
+.Namebig {
+    
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.Name{
+    
+    font-style: italic;
+}
+
+.description {
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    padding: 100px;
+    min-height: 400px;
+    background-image: url(/media/image/fixture2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.description a {
+    
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #fdffd6;
+    border: none;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    width: 170px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 15px;
+    
+}
+
+.description a:visited {
+    
+    color:black;
+}
+
+.description a:hover {
+    
+    box-shadow: 1px 5px 10px black;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+
+.about {
+    
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+   
+}
+
+.process {
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 1px 1px 70px black;
+    padding-top: 100px;
+    background-image: url(/media/image/fixture3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-position: center;
+    margin-bottom: 80px;
+}
+
+.installation {
+    
+     font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 1px 1px 70px black;
+    padding-top: 100px;
+    background-image: url(/media/image/fixture4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.creators {
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 1px 1px 70px black;
+    padding-top: 100px;
+    background-image: url(/media/image/fixutre5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-position: center;
+    margin-bottom: 20px;
+}
+h2 {
+    
+    font-family: 'Comfortaa', cursive;
+    font-size: 35px;
+    text-align: left;
+}
+
+.shop {
+    
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.scannersection {
+    
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 400px;
+}
+
+.scannersection a{
+    
+    text-decoration: none;
+}
+
+.scannersection a:hover{
+    
+    opacity: 0.3;
+}
+
+.scanner:hover .cart {
+    
+    visibility: visible;
+}
+.scanner:hover .cart {
+    
+    visibility: visible;
+}
+
+.scanner{
+    
+    height: 250px;
+    width: 250px;
+    float: left;
+    border: 2px solid #4a4b4c;
+}
+
+.scanner img{
+    
+    height: 200px;
+    width: 220px;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.scanner figcaption {
+    
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+.scanner:hover .cart {
+    
+    visibility: visible;
+}
+
+.homefixt{
+    
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 600px;
+}
+
+.homefixt a{
+    
+    text-decoration: none;
+}
+
+.cart {
+    
+    visibility: hidden;
+    text-align: center;
+    
+}
+.homefixt a:hover{
+    
+    opacity: 0.3;
+}
+
+.item1:hover .cart {
+    
+    visibility: visible;
+}
+
+.item1{
+    
+    height: 250px;
+    width: 250px;
+    float: left;
+    border: 2px solid #4a4b4c;
+}
+
+.item1 img{
+    
+    height: 200px;
+    width: 220px;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.item1 figcaption {
+    
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.item2:hover .cart {
+    
+    visibility: visible;
+}
+
+.item2{
+    
+    height: 250px;
+    width: 250px;
+    float: left;
+    border: 2px solid #4a4b4c;    
+}
+
+.item2 img{
+    
+    height: 200px;
+    width: 220px;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.item2 figcaption {
+    
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.item3:hover .cart {
+    
+    visibility: visible;
+}
+
+.item3{
+    
+    height: 250px;
+    width: 250px;
+    float: left;
+    border: 2px solid #4a4b4c;
+    
+}
+
+.item3 img{
+    
+    height: 200px;
+    width: 220px;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.item3 figcaption {
+    
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.item3:hover .cart {
+    
+    visibility: visible;
+}
+
+.item4{
+    
+    height: 250px;
+    width: 250px;
+    float: left;
+    border: 2px solid #4a4b4c;
+    
+}
+
+.item4 img{
+    
+    height: 200px;
+    width: 220px;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.item4 figcaption {
+    
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.item4:hover .cart {
+    
+    visibility: visible;
+}
+
+.item5{
+    
+    height: 250px;
+    width: 250px;
+    float: left;
+    border: 2px solid #4a4b4c;
+    
+}
+
+.item5 img{
+    
+    height: 200px;
+    width: 220px;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.item5 figcaption {
+    
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.item5:hover .cart {
+    
+    visibility: visible;
+}
+
+.item6{
+    
+    height: 250px;
+    width: 250px;
+    float: left;
+    border: 2px solid #4a4b4c;
+    
+}
+
+.item6 img{
+    
+    height: 200px;
+    width: 220px;
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.item6 figcaption {
+    
+    padding-top: 20px;
+    padding-left: 8px;
+    font-size: 15px;
+}
+
+.item6:hover .cart {
+    
+    visibility: visible;
+}
+
+.decorative{
+    
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 600px;
+}
+
+.decorative a{
+    
+    text-decoration: none;
+}
+
+.decorative a:hover{
+    
+    opacity: 0.3;
+}
+
+.bulb{
+    
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 450px;
+}
+
+.bulb a{
+    
+    text-decoration: none;
+}
+.bulb a:hover{
+    
+    opacity: 0.3;
+}
+
+.FAQ {
+    
+    font-family: 'Lato', sans-serif;
+    line-height: 150%;
+    background-image: url(/media/image/fixture2.jpg);
+    background-attachment: fixed;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    margin-top: 15px;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e5f3ff;
+    text-align: center;
+    margin-bottom: 90px;
+    background-position: bottom;
+    font-size: 20px;
+    text-shadow: 1px 1px 70px black;
+}
+
+.FAQ a {
+    
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.FAQ a:hover {
+    
+    font-size: 25px;
+}
+
+.FAQ a:visited{
+    
+    color: aliceblue;
+}
+
+#q1, #q2, #q3, #q4, #q5, #contact{
+    
+font-family: 'Lato', sans-serif;
+padding-bottom: 40px;
+padding-top: 30px;
+color: black;
+margin-bottom: 50px;
+}
+
+#q3 a {
+    
+    text-decoration: none;
+    font-style: italic;
+    color: deepskyblue;
+}
+
+.spacer {
+    
+    padding-left: 550px;
+    padding-bottom: 20px;
+}
+.spacer img{
+    
+    width: 70px;
+    
+}
+
+#message {
+    
+    width: 400px;
+    height: 200px;
+}
+.footer {
+    
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    font-family: 'Comfortaa', cursive;
+    line-height: 10px;
+    max-height: 100px;
+}
