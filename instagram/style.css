@@ -1,0 +1,199 @@
+*, *:before, *:after {
+		  box-sizing: border-box;
+		}
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+
+
+.header {
+    
+    padding-right: 110px; 
+    padding-left: 110px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    border-bottom: 1px solid gray;
+    width: 1050px;
+    
+}
+
+
+.header img {
+    
+    width: 180px;
+    float: left;
+    
+}
+
+.header form {
+    
+    position: relative;
+    left: 190px;
+    top: 15px;
+/*    width: 200px;*/
+    
+}
+
+.group1 {
+    
+    position: relative;
+    left: 500px;
+    word-spacing: 8px;
+}
+
+.info {
+    
+    word-spacing: 2px;
+}
+
+.profilepic {
+    
+    float: left;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.profilepic img {
+    
+    width: 110px;
+}
+
+.username {
+
+    position: absolute;
+    left: 350px;
+    width: 400px;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.followbutton {
+    
+    position: absolute;
+    left: 550px;
+    top: 113px;
+}
+
+.followbutton button {
+    
+    border-radius: 3px;
+}
+
+.posts {
+    
+    position: absolute;
+    left: 350px;
+    top: 130px;
+}
+
+.followers {
+    
+    position: absolute;
+    left: 450px;
+    top: 130px;
+}
+
+.following {
+    
+    position: absolute;
+    left: 600px;
+    top: 130px;
+}
+
+.number {
+    
+    font-weight: bold;
+}
+
+.bio {
+    
+    position: absolute;
+    left: 350px;
+    top: 160px
+}
+
+.grid {
+    
+    width: 800px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 250px 250px 250px;
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}
+
+.grid img {
+    
+    width: 230px;
+    height: 230px;
+}
+
+.load {
+    
+    position:relative;
+    top: 1150px;
+}
+
+.load button {
+    
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 500px;
+    
+}
+.footer {
+    
+    width: 1050px;
+    position: absolute;
+    top: 1355px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 10px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+a {
+    
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+button {
+    
+    border: 1px solid dodgerblue;
+    color: dodgerblue;
+    background-color: white;
+}
+
+.header button {
+    
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 7%;
+    padding: 5px;
+}
+
+.footer a {
+    
+    color: black;
+}
+
+.copyright {
+    
+    float: right;
+}
+
+.links {
+    
+    float: left;
+    padding-left: 130px;
+}
